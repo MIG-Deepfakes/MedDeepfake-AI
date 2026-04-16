@@ -53,6 +53,36 @@ up to <b>99.8% accuracy</b>, with Fourier features proving most effective in ide
 
 <hr>
 
+<h2>📊 Classification Results</h2>
+<p>
+The table below presents classification performance across different feature types and models.
+Fourier-based features achieve the highest accuracy across both SVM and CNN models.
+</p>
+
+<img src="table_results.png" alt="Classification Results Table">
+<hr>
+
+<hr>
+
+<h2>📉 Feature Space Visualization (t-SNE)</h2>
+<p>
+The t-SNE visualization shows the distribution of real and fake MRI images in feature space.
+There is significant overlap between the classes, indicating that unsupervised methods struggle
+to separate real and fake images effectively.
+</p>
+
+<div style="text-align: center;">
+  <img src="results/tsne.png" alt="t-SNE Visualization" style="max-width: 90%;">
+  <p><i>t-SNE plot showing feature space distribution of real and fake MRI images.</i></p>
+</div>
+  
+<h2>🔍 Key Inferences</h2>
+<ul>
+  <li>Fourier features are the most effective for deepfake detection.</li>
+  <li>Supervised models outperform unsupervised methods significantly.</li>
+  <li>VGG19 embeddings work well even with limited data.</li>
+</ul>
+  
 <h2>🔗 Links</h2>
 <p>
 <a href="https://www.sciencedirect.com/science/article/pii/S0167865526001066" target="_blank">📄 Paper</a><br>
