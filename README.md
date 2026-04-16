@@ -1,4 +1,4 @@
-
+https://mig-deepfakes.github.io/MedDeepfake-AI/
 # 🧠 Medical Deepfake Detection in Brain MRI
 
 This project is based on the research paper **“Integrating Fourier Analysis and Deep Learning for Robust Detection of Deep Fake Brain Magnetic Resonance Images”** published in *Pattern Recognition Letters (2026)*. The work addresses the growing risk of synthetic medical images generated using GANs and diffusion models, which can mislead clinical diagnosis. The proposed framework detects fake brain MRI images by combining domain-specific handcrafted features with deep learning representations, achieving highly reliable performance. Experimental results show that Fourier-based features capture frequency inconsistencies introduced by synthetic generation and achieve up to **99.8% accuracy**, making them the most effective feature representation ([CompuData Sciences][1]).
